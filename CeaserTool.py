@@ -124,7 +124,11 @@ def encrypt(text: str, offset: int):
 
 
 def main():
-    args = read_arguments()  # Read arguments
+    try:
+        args = read_arguments()  # Read arguments
+    except Exception as e:
+        print(f"ERROR: {e}")
+        exit()
     offset = args.offset
     text = str()
 
