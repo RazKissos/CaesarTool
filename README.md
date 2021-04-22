@@ -1,7 +1,8 @@
-# CeasarTool
-A ceaser cipher encrypt and decrypt tool.
+# CaesarTool
+A caeser cipher encrypt and decrypt tool.
 ***
-This is a tool I have developed for fun, it is free to use and to modify to your own desires and liking.
+This is a caeser cipher encryptor and decryptor that I have developed for fun.
+It is made in python and can be run from the command line.
 
 requirements modules: 
  - argparse
